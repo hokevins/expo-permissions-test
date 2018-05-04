@@ -22,6 +22,46 @@ export default class Home extends React.Component {
           title="Location"
           onPress={() => this.props.navigation.navigate('Location')}
         />
+        <Button
+          title="Pedometer"
+          onPress={() => this.props.navigation.navigate('Pedometer')}
+        />
+        <Button
+          title="MapView"
+          onPress={() => this.props.navigation.navigate('MapView')}
+        />
+        <Button
+          title="WebBrowser"
+          onPress={() => this.props.navigation.navigate('WebBrowser')}
+        />
+        <Button
+          title="Magnetometer"
+          onPress={() => this.props.navigation.navigate('Magnetometer')}
+        />
+        <Button
+          title="Lottie"
+          onPress={() => this.props.navigation.navigate('Lottie')}
+        />
+        <Button
+          title="LinearGradient"
+          onPress={() => this.props.navigation.navigate('LinearGradient')}
+        />
+        <Button
+          title="LinearGradientBlackFade"
+          onPress={() => this.props.navigation.navigate('LinearGradientBlackFade')}
+        />
+        <Button
+          title="Camera"
+          onPress={() => this.props.navigation.navigate('Camera')}
+        />
+        <Button
+          title="Accelerometer"
+          onPress={() => this.props.navigation.navigate('Accelerometer')}
+        />
+        <Button
+          title="QRCodeScanner"
+          onPress={() => this.props.navigation.navigate('QRCodeScanner')}
+        />
       </View>
     );
   }
